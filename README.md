@@ -3,6 +3,7 @@ All the familiar navigation patterns for structuring iOS apps, like drill-downs,
 # 1. Structural Navigation
 ### A typical iOS application has a fixed architecture—often a hierarchical tree with multiple levels. This rigid structure makes navigation options predictable. Structural navigation patterns give users confidence about where they came from, where they are in the hierarchy, and how to navigate back to where they came from.
 ## Drill-Down
+![Image alt](https://github.com/{Akhmedau}/{Modern-iOS-Navigation-Patterns}/blob/{master}/Drill-Down.png)
 The drill-down navigation pattern traverses an information tree structure as cascading lists—level by level, screen by screen.
 Animated transitions imply horizontal movement between columns: Moving right goes deeper into the tree hierarchy, moving left goes back up the hierarchy.
 Drill-down navigation is stateless: Traversing the hierarchy is always possible and is never interrupted by questions about whether to save state.
